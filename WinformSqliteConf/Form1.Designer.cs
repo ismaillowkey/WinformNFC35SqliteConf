@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.TxtPort = new System.Windows.Forms.TextBox();
             this.TxtIP = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -94,12 +95,20 @@
             this.TxtIP.Size = new System.Drawing.Size(133, 23);
             this.TxtIP.TabIndex = 0;
             // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(33, 209);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(188, 20);
+            this.label3.Text = "save and get key Section_Key";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(238, 295);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.BtnGate);
             this.Controls.Add(this.BtnSave);
@@ -120,6 +129,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox TxtPort;
+        private System.Windows.Forms.Label label3;
     }
 }
 
